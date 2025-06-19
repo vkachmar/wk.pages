@@ -1,0 +1,1490 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <!-- Metas -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta
+      name="keywords"
+      content="HTML5 Template Hubfolio Multi-Purpose themeforest"
+    />
+    <meta
+      name="description"
+      content="Hubfolio - Multi-Purpose HTML5 Template"
+    />
+    <meta name="author" content="" />
+
+    <!-- Title  -->
+    <title>Hubfolio</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/imgs/favicon.ico" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Plugins -->
+    <link rel="stylesheet" href="../common/css/plugins.css" />
+
+    <!-- Core Style Css -->
+    <link rel="stylesheet" href="../common/css/common_style.css" />
+    <link rel="stylesheet" href="assets/css/home9-style.css" />
+
+    <style>
+      .lang-switcher {
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: #fff;
+      }
+
+      .lang-switcher span[data-lang] {
+        cursor: pointer;
+        transition: color 0.2s;
+        font-weight: 400;
+        color: #ddd;
+      }
+
+      .lang-switcher span[data-lang]:hover {
+        color: #fff;
+      }
+
+      .lang-switcher .active {
+        font-weight: 700;
+        color: #fff;
+      }
+
+      .lang-switcher .separator {
+        color: #aaa;
+        user-select: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- ==================== Start Loading ==================== -->
+
+    <div class="loader-wrap">
+      <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+        <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+      </svg>
+
+      <div class="loader-wrap-heading">
+        <div class="load-text">
+          <span>L</span>
+          <span>o</span>
+          <span>a</span>
+          <span>d</span>
+          <span>i</span>
+          <span>n</span>
+          <span>g</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== End Loading ==================== -->
+
+    <div class="cursor"></div>
+
+    <!-- ==================== Start progress-scroll-button ==================== -->
+
+    <div class="progress-wrap cursor-pointer">
+      <svg
+        class="progress-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+    </div>
+
+    <!-- ==================== End progress-scroll-button ==================== -->
+
+    <!-- ==================== Start Navbar ==================== -->
+
+    <nav
+      class="navbar navbar-expand-lg"
+      role="navigation"
+      aria-label="Main navigation"
+    >
+      <div class="container">
+        <!-- Logo -->
+        <a class="logo" href="#" style="border: none">
+          <img
+            src="assets/imgs/wk.pages-logo-white.svg"
+            alt="wk.pages - Digital Agency Logo"
+            style="width: 75px"
+          />
+        </a>
+
+        <!-- navbar links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://tally.so/r/nWKkvQ"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Right section: Language Switcher + Button + Menu Icon -->
+        <div class="topnav d-flex align-items-center gap-3">
+          <!-- Language Switcher -->
+          <div class="lang-switcher">
+            <span data-lang="en" class="active">en</span>
+            <span class="separator">/</span>
+            <span data-lang="pl">pl</span>
+            <span class="separator">/</span>
+            <span data-lang="ua">ua</span>
+          </div>
+
+          <!-- CTA Button -->
+          <a href="https://tally.so/r/nWKkvQ" class="butn butn-rounded">
+            <div class="d-flex align-items-center">
+              <span>Contact</span>
+              <span class="icon ml-10">
+                <img src="assets/imgs/arrow-top-right.svg" alt="Arrow Icon" />
+              </span>
+            </div>
+          </a>
+
+          <!-- Hamburger / Menu Icon -->
+          <div class="menu-icon cursor-pointer">
+            <span class="icon ti-align-right"></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hamenu">
+      <div class="close-menu cursor-pointer ti-close"></div>
+      <div class="container-fluid rest d-flex">
+        <div class="menu-links">
+          <ul class="main-menu rest">
+            <li>
+              <div class="o-hidden">
+                <div class="link cursor-pointer dmenu">
+                  <span class="fill-text" data-text="Home">Home</span>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="o-hidden">
+                <a href="https://tally.so/r/nWKkvQ" class="link"
+                  ><span class="fill-text" data-text="Contact Us"
+                    >Contact Us</span
+                  ></a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="cont-info valign">
+          <div class="text-center full-width">
+            <div class="logo">
+              <img
+                src="assets/imgs/wk.pages-logo-white.svg"
+                alt="wk.pages - Digital Agency Logo"
+                style="width: 75px"
+              />
+            </div>
+            <div class="social-icon mt-40">
+              <a href="https://www.facebook.com/profile.php?id=61567880623368">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+              <a
+                href="https://www.instagram.com/wk.pages/profilecard/?igsh=a3dmZ3p4Z3J0bHU5"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+            <div class="item mt-10">
+              <h5><a href="#0">contact@wkpages.com</a></h5>
+              <h5 class="underline"><a href="#0">+48 518 922 121</a></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== End Navbar ==================== -->
+
+    <div id="smooth-wrapper">
+      <div id="smooth-content">
+        <main>
+          <!-- ==================== Start Header ==================== -->
+
+          <header
+            class="header-da d-flex align-items-center"
+            data-overlay-dark="3"
+          >
+            <div class="background"></div>
+            <div class="shape">
+              <img src="assets/imgs/header/shape.svg" alt="" />
+            </div>
+            <div class="container">
+              <div class="caption">
+                <div class="row justify-content-between align-items-center">
+                  <div class="col-md-4">
+                    <div class="text">
+                      <p>
+                        We create stunning visuals that capture attention, build
+                        trust, and elevate brands across all platforms.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <h1>Creative</h1>
+                  </div>
+                </div>
+
+                <div class="row align-items-center">
+                  <div class="col-md-9">
+                    <h1 class="play">Impactful</h1>
+                  </div>
+                  <div class="col-md-3">
+                    <ul class="rest">
+                      <li>UI/UX Design</li>
+                      <li>Social Media Graphics</li>
+                      <li>Branding Assets</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="row align-items-center mt-15">
+                  <div class="col-md-3">
+                    <div class="arrow-img text-center">
+                      <img
+                        src="assets/imgs/header/arrow-rb.png"
+                        alt=""
+                        class="icon-img-100"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-9">
+                    <h1>Designs</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </header>
+
+          <!-- ==================== End Header ==================== -->
+
+          <!-- ==================== Start services ==================== -->
+
+          <section class="services-da section-padding">
+            <div class="container">
+                <div class="sec-head mb-100">
+                  <div class="row">
+                    <div class="col-lg-5">
+                      <h6 class="sub-head">Our Expertise</h6>
+                    </div>
+                    <div class="col-lg-7">
+                      <h4>
+                        Designing impactful <span class="sub-color inline">visual identities, digital platforms,</span> and engaging content that bring brands to life.
+                      </h4>
+                      <a
+                        href="../inner_pages/services.html"
+                        class="butn butn-md butn-bord butn-rounded mt-40"
+                      >
+                        <div class="d-flex align-items-center">
+                          <span>Start Your Project</span>
+                          <span class="icon pe-7s-angle-right ml-10 fz-30"></span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="numbers">
+                  <div class="row">
+                    <div class="col-lg-3 col-md-6 item text-center">
+                      <h2>5<span>+</span></h2>
+                      <p>Years of Design Excellence</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 item text-center">
+                      <h2>98<span>%</span></h2>
+                      <p>Client Satisfaction Rate</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 item text-center">
+                      <h2>124<span>+</span></h2>
+                      <p>Successful Projects Delivered</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 item text-center">
+                      <h2>17</h2>
+                      <p>Awards & Global Recognition</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="container-fluid serv-box">
+                <div class="row">
+                  <div class="col-lg-4 serv-item">
+                    <div class="cont ontop mb-50">
+                      <h5>Visual Content Creation</h5>
+                      <span class="sub-color">Graphics & Social Media Posts</span>
+                    </div>
+                    <div class="ontop">
+                      <p>
+                        We design striking visuals for posts, ads, stories, banners, and more.
+                        Tailored graphics that boost engagement across all digital platforms.
+                      </p>
+                      <a href="../inner_pages/service-details.html" class="butn butn-md butn-rounded mt-15">
+                        <div class="d-flex align-items-center">
+                          <span>Launch My Brand</span>
+                          <span class="icon ml-10">
+                            <img src="../common/imgs/icons/arrow-top-right.svg" alt="" />
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="img">
+                      <img src="assets/imgs/services/1.svg" alt="" />
+                    </div>
+                  </div>
+              
+                  <div class="col-lg-4 serv-item">
+                    <div class="cont ontop mb-50">
+                      <h5>Branding & Identity</h5>
+                      <span class="sub-color">Logo, Guidelines & Brand Assets</span>
+                    </div>
+                    <div class="ontop">
+                      <p>
+                        Logo creation, brand guidelines, style consistency,
+                        and everything you need to build a strong visual identity.
+                      </p>
+                      <a href="../inner_pages/service-details.html" class="butn butn-md butn-rounded mt-15">
+                        <div class="d-flex align-items-center">
+                          <span>Craft My Identity</span>
+                          <span class="icon ml-10">
+                            <img src="../common/imgs/icons/arrow-top-right.svg" alt="" />
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="img">
+                      <img src="assets/imgs/services/2.svg" alt="" />
+                    </div>
+                  </div>
+              
+                  <div class="col-lg-4 serv-item">
+                    <div class="cont ontop mb-50">
+                      <h5>UI/UX & Web Design</h5>
+                      <span class="sub-color">User-Centric Interfaces</span>
+                    </div>
+                    <div class="ontop">
+                      <p>
+                        Professional UI/UX design for websites, apps, and landing pages.
+                        Focused on usability, aesthetics, and high-conversion flows.
+                      </p>
+                      <a href="../inner_pages/service-details.html" class="butn butn-md butn-rounded mt-15">
+                        <div class="d-flex align-items-center">
+                          <span>Start Web Project</span>
+                          <span class="icon ml-10">
+                            <img src="../common/imgs/icons/arrow-top-right.svg" alt="" />
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="img">
+                      <img src="assets/imgs/services/3.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </section>
+
+          <!-- ==================== End services ==================== -->
+
+          <!-- ==================== Start Portfolio ==================== -->
+
+          <section class="work-da section-padding pt-0">
+            <div class="container">
+              <div class="sec-head mb-20">
+                <div class="row justify-content-center">
+                  <div class="col-lg-6 col-md-10 text-center">
+                    <p>
+                      Business challenges are tough, but we have a proven record
+                      of elevating our partners to their next and best selves.
+                    </p>
+                    <h2 class="text-u mt-10">Featured Projects</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="row lg-marg">
+                <div class="col-lg-12">
+                  <div class="item mt-60">
+                    <div class="img fit-img">
+                      <img src="assets/imgs/works/1.jpg" alt="" />
+                      <a
+                        href="../inner_pages/portfolio-standard.html"
+                        class="plink"
+                      ></a>
+                    </div>
+                    <div class="cont d-flex mt-30">
+                      <h6>Archin Website Design</h6>
+                      <span class="ml-auto sub-color fz-14">2023</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="item mt-60">
+                    <div class="img fit-img">
+                      <img src="assets/imgs/works/2.jpg" alt="" />
+                      <a
+                        href="../inner_pages/portfolio-standard.html"
+                        class="plink"
+                      ></a>
+                    </div>
+                    <div class="cont d-flex mt-30">
+                      <h6>Archin Website Design</h6>
+                      <span class="ml-auto sub-color fz-14">2023</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="item mt-60">
+                    <div class="img fit-img">
+                      <img src="assets/imgs/works/3.jpg" alt="" />
+                      <a
+                        href="../inner_pages/portfolio-standard.html"
+                        class="plink"
+                      ></a>
+                    </div>
+                    <div class="cont d-flex mt-30">
+                      <h6>Archin Website Design</h6>
+                      <span class="ml-auto sub-color fz-14">2023</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="item mt-60">
+                    <div class="img fit-img">
+                      <img src="assets/imgs/works/4.jpg" alt="" />
+                      <a
+                        href="../inner_pages/portfolio-standard.html"
+                        class="plink"
+                      ></a>
+                    </div>
+                    <div class="cont d-flex mt-30">
+                      <h6>Archin Website Design</h6>
+                      <span class="ml-auto sub-color fz-14">2023</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="item mt-60">
+                    <div class="img fit-img">
+                      <img src="assets/imgs/works/5.jpg" alt="" />
+                      <a
+                        href="../inner_pages/portfolio-standard.html"
+                        class="plink"
+                      ></a>
+                    </div>
+                    <div class="cont d-flex mt-30">
+                      <h6>Archin Website Design</h6>
+                      <span class="ml-auto sub-color fz-14">2023</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- ==================== End Portfolio ==================== -->
+
+          <!-- ==================== Start Services ==================== -->
+
+          <section class="services-accord section-padding">
+            <div class="container">
+              <div class="sec-head mb-80 d-flex align-items-center">
+                <div>
+                  <h2 class="text-u">Our Expertise</h2>
+                </div>
+                <div class="ml-auto">
+                  <a href="../inner_pages/services.html" class="butn butn-md butn-bord butn-rounded">
+                    <div class="d-flex align-items-center">
+                      <span>Explore Our Designs</span>
+                      <span class="icon ml-10">
+                        <i class="fa-solid fa-chevron-right"></i>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+          
+              <div class="accordion wow fadeInUp slow" data-wow-delay="0.4s" id="accordionExample">
+                
+                <!-- 01 UI/UX Design -->
+                <div class="accordion-item">
+                  <div class="accordion-header" id="heading1">
+                    <div class="accordion-title" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                      <div class="row align-items-center">
+                        <div class="col-md-2 col-lg-4">
+                          <span class="numb fz-14">( 01 )</span>
+                        </div>
+                        <div class="col-md-8 col-lg-6">
+                          <div class="title">
+                            <h2>UI/UX Design</h2>
+                          </div>
+                        </div>
+                        <div class="col-md-2 d-flex">
+                          <div class="icon ml-auto"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <div class="row align-items-end">
+                        <div class="col-md-4">
+                          <div class="sm-hide">
+                            <a href="#0" class="d-flex align-items-end">
+                              <img src="assets/imgs/services/arrow-rb.png" alt="" class="icon-img-70">
+                              <span class="ml-20 text-u fz-14">Discover UI/UX</span>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-md-8">
+                          <div class="row">
+                            <div class="col-lg-7">
+                              <div class="text">
+                                <p>We craft intuitive and visually stunning user interfaces and experiences that elevate brands and delight users across all digital platforms.</p>
+                              </div>
+                              <div class="list">
+                                <div class="row">
+                                  <div class="col-sm-6">
+                                    <span>Website UI Design</span>
+                                    <span>Mobile App Design</span>
+                                    <span>Wireframes & Prototypes</span>
+                                    <span>UX Research & Strategy</span>
+                                  </div>
+                                  <div class="col-sm-6">
+                                    <span>Interaction Design</span>
+                                    <span>User Flows</span>
+                                    <span>Micro-animations</span>
+                                    <span>Accessibility Design</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <!-- 02 Branding & Identity -->
+                <div class="accordion-item">
+                  <div class="accordion-header" id="heading2">
+                    <div class="accordion-title collapsed" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                      <div class="row align-items-center">
+                        <div class="col-md-2 col-lg-4">
+                          <span class="numb fz-14">( 02 )</span>
+                        </div>
+                        <div class="col-md-8 col-lg-6">
+                          <div class="title">
+                            <h2>Branding</h2>
+                          </div>
+                        </div>
+                        <div class="col-md-2 d-flex">
+                          <div class="icon ml-auto"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <div class="row align-items-end">
+                        <div class="col-md-4">
+                          <div class="sm-hide">
+                            <a href="#0" class="d-flex align-items-end">
+                              <img src="assets/imgs/services/arrow-rb.png" alt="" class="icon-img-70">
+                              <span class="ml-20 text-u fz-14">Explore Branding</span>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-md-8">
+                          <div class="row">
+                            <div class="col-lg-7">
+                              <div class="text">
+                                <p>We build unforgettable brands from the ground up — from stunning logos to complete identity systems that reflect your core values and vision.</p>
+                              </div>
+                              <div class="list">
+                                <div class="row">
+                                  <div class="col-sm-6">
+                                    <span>Logo Design</span>
+                                    <span>Visual Identity Systems</span>
+                                    <span>Brand Guidelines</span>
+                                    <span>Business Cards</span>
+                                  </div>
+                                  <div class="col-sm-6">
+                                    <span>Brand Refresh</span>
+                                    <span>Packaging Design</span>
+                                    <span>Stationery Design</span>
+                                    <span>Typography Systems</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <!-- 03 Graphic Design & Social Media -->
+                <div class="accordion-item">
+                  <div class="accordion-header" id="heading3">
+                    <div class="accordion-title collapsed" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                      <div class="row align-items-center">
+                        <div class="col-md-2 col-lg-4">
+                          <span class="numb fz-14">( 03 )</span>
+                        </div>
+                        <div class="col-md-8 col-lg-6">
+                          <div class="title">
+                            <h2>Graphic Design</h2>
+                          </div>
+                        </div>
+                        <div class="col-md-2 d-flex">
+                          <div class="icon ml-auto"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <div class="row align-items-end">
+                        <div class="col-md-4">
+                          <div class="sm-hide">
+                            <a href="#0" class="d-flex align-items-end">
+                              <img src="assets/imgs/services/arrow-rb.png" alt="" class="icon-img-70">
+                              <span class="ml-20 text-u fz-14">See Our Designs</span>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-md-8">
+                          <div class="row">
+                            <div class="col-lg-7">
+                              <div class="text">
+                                <p>We design high-impact graphics for social media, advertising, websites, and more — delivering visual stories that drive engagement and loyalty.</p>
+                              </div>
+                              <div class="list">
+                                <div class="row">
+                                  <div class="col-sm-6">
+                                    <span>Social Media Graphics</span>
+                                    <span>Ad Banners</span>
+                                    <span>Infographics</span>
+                                    <span>Event Graphics</span>
+                                  </div>
+                                  <div class="col-sm-6">
+                                    <span>Brochures & Flyers</span>
+                                    <span>Posters & Billboards</span>
+                                    <span>Digital Collateral</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <!-- 04 Motion Graphics & Animations -->
+                <div class="accordion-item">
+                  <div class="accordion-header" id="heading4">
+                    <div class="accordion-title collapsed" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                      <div class="row align-items-center">
+                        <div class="col-md-2 col-lg-4">
+                          <span class="numb fz-14">( 04 )</span>
+                        </div>
+                        <div class="col-md-8 col-lg-6">
+                          <div class="title">
+                            <h2>Motion Design</h2>
+                          </div>
+                        </div>
+                        <div class="col-md-2 d-flex">
+                          <div class="icon ml-auto"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <div class="row align-items-end">
+                        <div class="col-md-4">
+                          <div class="sm-hide">
+                            <a href="#0" class="d-flex align-items-end">
+                              <img src="assets/imgs/services/arrow-rb.png" alt="" class="icon-img-70">
+                              <span class="ml-20 text-u fz-14">View Animations</span>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-md-8">
+                          <div class="row">
+                            <div class="col-lg-7">
+                              <div class="text">
+                                <p>We bring brands to life with motion — from animated logos to social video content, delivering dynamic storytelling and better engagement rates.</p>
+                              </div>
+                              <div class="list">
+                                <div class="row">
+                                  <div class="col-sm-6">
+                                    <span>Animated Logos</span>
+                                    <span>Explainer Videos</span>
+                                    <span>Social Media Animations</span>
+                                  </div>
+                                  <div class="col-sm-6">
+                                    <span>Product Animations</span>
+                                    <span>Interactive Videos</span>
+                                    <span>GIF Campaigns</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+              </div>
+            </div>
+          </section>
+          <!-- ==================== End Services ==================== -->
+
+          <!-- ==================== Start clients ==================== -->
+
+          <section class="clients-sa section-padding pb-0">
+            <div class="container">
+              <div class="sec-head mb-100">
+                <h6 class="sub-head">Our Clients & Partners</h6>
+              </div>
+              <div class="row">
+                <div class="col-lg-2 col-md-4 col-6 md-mb30">
+                  <div
+                    class="item d-flex align-items-center justify-content-center"
+                  >
+                    <div class="img">
+                      <img src="assets/imgs/brands/1.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 md-mb30">
+                  <div
+                    class="item d-flex align-items-center justify-content-center"
+                  >
+                    <div class="img">
+                      <img src="assets/imgs/brands/2.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 md-mb30">
+                  <div
+                    class="item d-flex align-items-center justify-content-center"
+                  >
+                    <div class="img">
+                      <img src="assets/imgs/brands/3.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 sm-mb30">
+                  <div
+                    class="item d-flex align-items-center justify-content-center"
+                  >
+                    <div class="img">
+                      <img src="assets/imgs/brands/4.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 sm-mb30">
+                  <div
+                    class="item d-flex align-items-center justify-content-center"
+                  >
+                    <div class="img">
+                      <img src="assets/imgs/brands/5.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                  <div
+                    class="item d-flex align-items-center justify-content-center"
+                  >
+                    <div class="cont sub-color">
+                      <div class="icon invert">
+                        <img src="../common/imgs/icons/global.svg" alt="" />
+                      </div>
+                      <span
+                        >125+ clients
+                        worldwide</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- ==================== End clients ==================== -->
+
+          <!-- ==================== Start Testimonials ==================== -->
+
+          <section class="testimonials-sa section-padding">
+            <div class="container">
+              <div class="sec-head mb-100">
+                <div class="row">
+                  <div class="col-lg-5">
+                    <h6 class="sub-head">Client Testimonials</h6>
+                  </div>
+                  <div class="col-lg-7">
+                    <h4>
+                      Our visual identities, brand designs, and digital experiences
+                      help brands grow —
+                      <span class="sub-color inline">
+                        and our clients' satisfaction says it all.
+                      </span>
+                    </h4>
+                  </div>
+                  <div class="gl-rate d-flex align-items-center mt-60">
+                    <div class="icon">
+                      <img src="assets/imgs/logo-clutch.svg" alt="" />
+                    </div>
+                    <div class="cont">
+                      <h6>
+                        4.9/5
+                        <span class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </span>
+                      </h6>
+                      <p>Based on 24 verified reviews</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="swiper testim-swiper swiper-container">
+                <div class="swiper-wrapper">
+                  
+                  <!-- Testimonial 1 -->
+                  <div class="swiper-slide">
+                    <div class="item">
+                      <div>
+                        <div class="rate">
+                          <h5>
+                            5.0
+                            <span class="stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </span>
+                          </h5>
+                        </div>
+                        <div class="mt-30">
+                          <h6>
+                            Thanks to the team's creative approach, we launched a fresh, bold brand identity that completely reshaped our market image.  
+                            Excellent communication and outstanding design work from start to finish.
+                          </h6>
+                        </div>
+                      </div>
+                      <div class="info d-flex align-items-center mt-40 pt-30 bord-thin-top-light">
+                        <div>
+                          <div class="img-author">
+                            <img src="assets/imgs/testim/avatar4.webp" alt="" />
+                          </div>
+                        </div>
+                        <div class="info-text">
+                          <span>Karolina Majewska</span>
+                          <p>CEO, Digital Agency</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <!-- Testimonial 2 -->
+                  <div class="swiper-slide">
+                    <div class="item">
+                      <div>
+                        <div class="rate">
+                          <h5>
+                            5.0
+                            <span class="stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </span>
+                          </h5>
+                        </div>
+                        <div class="mt-30">
+                          <h6>
+                            We entrusted the team with our full rebranding project, including a website redesign.  
+                            The results were spectacular — clean visuals, intuitive UX, and a significant increase in customer engagement.
+                          </h6>
+                        </div>
+                      </div>
+                      <div class="info d-flex align-items-center mt-40 pt-30 bord-thin-top-light">
+                        <div>
+                          <div class="img-author">
+                            <img src="assets/imgs/testim/avatar4.webp" alt="" />
+                          </div>
+                        </div>
+                        <div class="info-text">
+                          <span>Paweł Kowalski</span>
+                          <p>Marketing Manager</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <!-- Testimonial 3 -->
+                  <div class="swiper-slide">
+                    <div class="item">
+                      <div>
+                        <div class="rate">
+                          <h5>
+                            5.0
+                            <span class="stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </span>
+                          </h5>
+                        </div>
+                        <div class="mt-30">
+                          <h6>
+                            A reliable creative partner! Every graphic design, social media visual, and marketing asset delivered was not only stunning but aligned perfectly with our brand strategy.
+                          </h6>
+                        </div>
+                      </div>
+                      <div class="info d-flex align-items-center mt-40 pt-30 bord-thin-top-light">
+                        <div>
+                          <div class="img-author">
+                            <img src="assets/imgs/testim/avatar4.webp" alt="" />
+                          </div>
+                        </div>
+                        <div class="info-text">
+                          <span>Anna Zielińska</span>
+                          <p>Head of Design</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- ==================== End Testimonials ==================== -->
+
+          <!-- ==================== Start Awards ==================== -->
+
+          <section class="awards-sa section-padding">
+            <div class="container">
+              <div class="sec-head mb-100">
+                <div class="row">
+                  <div class="col-lg-5">
+                    <h6 class="sub-head">Awards & Recognition</h6>
+                  </div>
+                  <div class="col-lg-7">
+                    <h4>
+                      Efforts to receive worthy rewards, awards & recognition
+                      <span class="sub-color inline"
+                        >help us affirm our brand.</span
+                      >
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="item-title row">
+                  <div class="col-md-4">
+                    <div>
+                      <h6 class="sub-title">hosted</h6>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div>
+                      <h6 class="sub-title">Award title</h6>
+                    </div>
+                  </div>
+                  <div class="col-md-2 d-flex justify-content-end">
+                    <div>
+                      <h6 class="sub-title">Date</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-line row">
+                  <div class="col-md-4">
+                    <div class="honors">
+                      <h6>Awwwards</h6>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="project-title">
+                      <h6>SOTY 2023 - 1st Winner</h6>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="project-date">
+                      <span>May 2023</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-line row">
+                  <div class="col-md-4">
+                    <div class="honors">
+                      <h6>css awards</h6>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="project-title">
+                      <h6>Top 5 Best of eCommerce Websites 2022</h6>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="project-date">
+                      <span>Dec 2022</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-line row">
+                  <div class="col-md-4">
+                    <div class="honors">
+                      <h6>Awwwards</h6>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="project-title">
+                      <h6>Honor SOTD November, 2022r</h6>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="project-date">
+                      <span>Nov 2022</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-line row">
+                  <div class="col-md-4">
+                    <div class="honors">
+                      <h6>Behance Portfolio</h6>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="project-title">
+                      <h6>Winner - US Behance Portfolio Review 2021</h6>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="project-date">
+                      <span>Aug 2021</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-line row">
+                  <div class="col-md-4">
+                    <div class="honors">
+                      <h6>ui/ux global award</h6>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="project-title">
+                      <h6>Top 10 Best of Mobile App Design 2021</h6>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="project-date">
+                      <span>Mar 2021</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-line row">
+                  <div class="col-md-4">
+                    <div class="honors">
+                      <h6>fwa us award</h6>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="project-title">
+                      <h6>Winner - Best of Architecture Website 2020</h6>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="project-date">
+                      <span>Sep 2020</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center mt-80">
+                <a
+                  href="../inner_pages/about.html"
+                  class="butn butn-md butn-bord butn-rounded"
+                >
+                  <div class="d-flex align-items-center">
+                    <span>Show More</span>
+                    <span class="icon pe-7s-angle-right ml-10 fz-30"></span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </section>
+
+          <!-- ==================== End Awards ==================== -->
+
+          <!-- ==================== Start Blog ==================== -->
+
+          <section class="blog-sa">
+            <div class="container section-padding bord-thin-top-light">
+              <div class="sec-head mb-100">
+                <div class="row">
+                  <div class="col-lg-5">
+                    <h6 class="sub-head">Latest Articles</h6>
+                  </div>
+                  <div class="col-lg-7">
+                    <h4>
+                      The place that we share everything related to
+                      <span class="sub-color inline"
+                        >design trends, tips and more.</span
+                      >
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="item md-mb50">
+                    <div class="img fit-img">
+                      <img src="assets/imgs/blog/1.jpg" alt="" />
+                    </div>
+                    <div class="cont mt-30">
+                      <h6>
+                        <a href="../inner_pages/blog-details.html"
+                          >Hubfolio agency revolutionizes work with the
+                          power of AI-Driven</a
+                        >
+                      </h6>
+                      <div class="info d-flex align-items-center mt-20">
+                        <a href="#0" class="tag">
+                          <span>Design Trends</span>
+                        </a>
+                        <a href="#0" class="date">
+                          <span>/ May 15, 2024</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="item">
+                    <div class="img fit-img">
+                      <img src="assets/imgs/blog/2.jpg" alt="" />
+                    </div>
+                    <div class="cont mt-30">
+                      <h6>
+                        <a href="../inner_pages/blog-details.html"
+                          >Common UX painpoints in Dashboard-related
+                          projects</a
+                        >
+                      </h6>
+                      <div class="info d-flex align-items-center mt-20">
+                        <a href="#0" class="tag">
+                          <span>Experience</span>
+                        </a>
+                        <a href="#0" class="date">
+                          <span>/ May 15, 2024</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- ==================== End Blog ==================== -->
+
+          <!-- ==================== Start Contact ==================== -->
+
+          <section class="contact-sa section-padding pt-0">
+            <div class="container">
+              <div class="box">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="info">
+                      <div class="sec-head">
+                        <h4>
+                          Success is a team play, right?
+                          <span class="sub-color inline"
+                            >Let’s work together!</span
+                          >
+                        </h4>
+                      </div>
+                      <div class="mt-50 md-mb80">
+                        <h6>+48 518 922 121</h6>
+                        <span class="d-block sub-color fz-14 mt-10"
+                          >Call us for urgent</span
+                        >
+                        <a
+                          href="https://tally.so/r/nWKkvQ"
+                          class="butn butn-md butn-bord butn-rounded mt-50"
+                        >
+                          <div class="d-flex align-items-center">
+                            <span>Get consultation</span>
+                            <span class="icon invert ml-10">
+                              <img
+                                src="../common/imgs/icons/arrow-top-right.svg"
+                                alt=""
+                              />
+                            </span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-7 offset-lg-1">
+                    <div class="contact-form">
+                      <form
+                        id="contact-form"
+                        method="post"
+                        action="contact.php"
+                      >
+                        <div class="messages"></div>
+
+                        <div class="controls row">
+                          <div class="col-lg-6">
+                            <div class="form-group mb-30">
+                              <label for="form_name"
+                                >Full Name <span class="star">*</span></label
+                              >
+                              <input
+                                id="form_name"
+                                type="text"
+                                name="name"
+                                placeholder="Your full name"
+                                required="required"
+                              />
+                            </div>
+                          </div>
+
+                          <div class="col-lg-6">
+                            <div class="form-group mb-30">
+                              <label for="form_email"
+                                >Email Address
+                                <span class="star">*</span></label
+                              >
+                              <input
+                                id="form_email"
+                                type="email"
+                                name="email"
+                                placeholder="Your email address"
+                                required="required"
+                              />
+                            </div>
+                          </div>
+
+                          <div class="col-lg-6">
+                            <div class="form-group mb-30">
+                              <label for="form_subject"
+                                >Subject <span class="star">*</span></label
+                              >
+                              <input
+                                id="form_subject"
+                                type="text"
+                                name="subject"
+                                placeholder="subject"
+                                required="required"
+                              />
+                            </div>
+                          </div>
+
+                          <div class="col-lg-6">
+                            <div class="form-group mb-30">
+                              <label for="form_budget"
+                                >Your Budget
+                                <span class="opt sub-color"
+                                  >(Optional)</span
+                                ></label
+                              >
+                              <input
+                                id="form_budget"
+                                type="text"
+                                name="budget"
+                                placeholder="A range of budget for project"
+                                required="required"
+                              />
+                            </div>
+                          </div>
+
+                          <div class="col-12">
+                            <div class="form-group">
+                              <label for="form_message">Message</label>
+                              <textarea
+                                id="form_message"
+                                name="message"
+                                placeholder="Write your message here..."
+                                rows="4"
+                                required="required"
+                              ></textarea>
+                            </div>
+                            <div class="mt-60">
+                              <button
+                                type="submit"
+                                class="butn butn-md butn-bord butn-rounded"
+                              >
+                                <span class="text">Send Your Message</span>
+                                <span class="icon invert ml-10">
+                                  <img
+                                    src="../common/imgs/icons/arrow-top-right.svg"
+                                    alt=""
+                                  />
+                                </span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- ==================== End Contact ==================== -->
+        </main>
+
+        <!-- ==================== Start Footer ==================== -->
+
+        <footer class="footer-ds bord-thin-top-light">
+            <div class="container section-padding">
+              <div class="row justify-content-between">
+                
+                <div class="col-lg-12">
+                  <div class="contact-info">
+                    <div class="row lg-marg">
+          
+                      <div class="col-md-3">
+                        <div class="item mb-60">
+                          <h6>Work Inquiry</h6>
+                          <p>contact@wkpages.com</p>
+                          <p>+48 518 922 121</p>
+                        </div>
+                      </div>
+          
+                      <div class="col-md-3">
+                        <div class="item mb-60">
+                          <h6>Location</h6>
+                          <p>Chmielna 25/2</p>
+                          <p>Warszawa, woj. Mazowieckie</p>
+                        </div>
+                      </div>
+          
+                      <div class="col-md-3">
+                        <div class="item sm-mb60">
+                          <h6>Social Media</h6>
+                          <p><a href="https://www.instagram.com/wk.pages/profilecard/?igsh=a3dmZ3p4Z3J0bHU5" target="_blank">Instagram</a></p>
+                          <p><a href="https://www.facebook.com/profile.php?id=61567880623368" target="_blank">Facebook</a></p>
+                        </div>
+                      </div>
+          
+                      <div class="col-md-3">
+                        <div class="item">
+                          <h6>Quick Links</h6>
+                          <p><a href="#0">Terms & Conditions</a></p>
+                          <p><a href="#0">Privacy Policy</a></p>
+                        </div>
+                      </div>
+
+                      
+          
+                    </div>
+                  </div>
+                </div>
+          
+              </div>
+            </div>
+          
+            <div class="sub-footer bord-thin-top-light pt-50 pb-50">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <div class="copy d-flex align-items-center md-mb30">
+                      <div>
+                        <div class="logo" style="border: none">
+                          <img
+                            src="assets/imgs/wk.pages-logo-white.svg"
+                            alt="wk.pages - Digital Agency Logo"
+                            style="width: 50px"
+                          />
+                        </div>
+                      </div>
+                      <div class="ml-50">
+                        <p>
+                          © 2025 <a href="#0">wk.pages Agency</a>.
+                          All Rights Reserved.
+                        </p>
+                      </div>
+                    </div>
+                  </div>          
+                </div>
+              </div>
+            </div>
+          </footer>
+
+        <!-- ==================== End Footer ==================== -->
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../common/js/lib/jquery-3.6.0.min.js"></script>
+    <script src="../common/js/lib/jquery-migrate-3.4.0.min.js"></script>
+
+    <!-- plugins -->
+    <script src="../common/js/lib/plugins.js"></script>
+
+    <!-- GSAP -->
+    <script src="../common/js/gsap_lib/gsap.min.js"></script>
+    <script src="../common/js/gsap_lib/ScrollSmoother.min.js"></script>
+    <script src="../common/js/gsap_lib/ScrollTrigger.min.js"></script>
+    <script src="../common/js/gsap_lib/SplitText.min.js"></script>
+
+    <!-- common scripts -->
+    <script src="../common/js/common_scripts.js"></script>
+
+    <!-- custom scripts -->
+    <script src="assets/js/scripts.js"></script>
+  </body>
+</html>

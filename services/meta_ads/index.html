@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <!-- Metas -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta
+      name="keywords"
+      content="HTML5 Template Hubfolio Multi-Purpose themeforest"
+    />
+    <meta
+      name="description"
+      content="Hubfolio - Multi-Purpose HTML5 Template"
+    />
+    <meta name="author" content="" />
+
+    <!-- Title  -->
+    <title>Hubfolio</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/imgs/favicon.ico" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Plugins -->
+    <link rel="stylesheet" href="../common/css/plugins.css" />
+
+    <!-- Core Style Css -->
+    <link rel="stylesheet" href="../common/css/common_style.css" />
+    <link rel="stylesheet" href="assets/css/home1-style.css" />
+    <link rel="stylesheet" href="assets/css/home2-style.css" />
+
+    <style>
+      .lang-switcher {
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: #fff;
+      }
+
+      .lang-switcher span[data-lang] {
+        cursor: pointer;
+        transition: color 0.2s;
+        font-weight: 400;
+        color: #ddd;
+      }
+
+      .lang-switcher span[data-lang]:hover {
+        color: #fff;
+      }
+
+      .lang-switcher .active {
+        font-weight: 700;
+        color: #fff;
+      }
+
+      .lang-switcher .separator {
+        color: #aaa;
+        user-select: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- ==================== Start Loading ==================== -->
+
+    <div class="loader-wrap">
+      <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+        <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+      </svg>
+
+      <div class="loader-wrap-heading">
+        <div class="load-text">
+          <span>L</span>
+          <span>o</span>
+          <span>a</span>
+          <span>d</span>
+          <span>i</span>
+          <span>n</span>
+          <span>g</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== End Loading ==================== -->
+
+    <div class="cursor"></div>
+
+    <!-- ==================== Start progress-scroll-button ==================== -->
+
+    <div class="progress-wrap cursor-pointer">
+      <svg
+        class="progress-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+    </div>
+
+    <!-- ==================== End progress-scroll-button ==================== -->
+
+    <!-- ==================== Start Navbar ==================== -->
+
+    <nav
+      class="navbar navbar-expand-lg"
+      role="navigation"
+      aria-label="Main navigation"
+    >
+      <div class="container">
+        <!-- Logo -->
+        <a class="logo" href="#" style="border: none">
+          <img
+            src="assets/imgs/wk.pages-logo-white.svg"
+            alt="wk.pages - Digital Agency Logo"
+            style="width: 75px"
+          />
+        </a>
+
+        <!-- navbar links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://tally.so/r/nWKkvQ"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Right section: Language Switcher + Button + Menu Icon -->
+        <div class="topnav d-flex align-items-center gap-3">
+          <!-- Language Switcher -->
+          <div class="lang-switcher">
+            <span data-lang="en" class="active">en</span>
+            <span class="separator">/</span>
+            <span data-lang="pl">pl</span>
+            <span class="separator">/</span>
+            <span data-lang="ua">ua</span>
+          </div>
+
+          <!-- CTA Button -->
+          <a href="https://tally.so/r/nWKkvQ" class="butn butn-rounded">
+            <div class="d-flex align-items-center">
+              <span>Contact</span>
+              <span class="icon ml-10">
+                <img src="assets/imgs/arrow-top-right.svg" alt="Arrow Icon" />
+              </span>
+            </div>
+          </a>
+
+          <!-- Hamburger / Menu Icon -->
+          <div class="menu-icon cursor-pointer">
+            <span class="icon ti-align-right"></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hamenu">
+      <div class="close-menu cursor-pointer ti-close"></div>
+      <div class="container-fluid rest d-flex">
+        <div class="menu-links">
+          <ul class="main-menu rest">
+            <li>
+              <div class="o-hidden">
+                <div class="link cursor-pointer dmenu">
+                  <span class="fill-text" data-text="Home">Home</span>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="o-hidden">
+                <a href="https://tally.so/r/nWKkvQ" class="link"
+                  ><span class="fill-text" data-text="Contact Us"
+                    >Contact Us</span
+                  ></a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="cont-info valign">
+          <div class="text-center full-width">
+            <div class="logo">
+              <img
+                src="assets/imgs/wk.pages-logo-white.svg"
+                alt="wk.pages - Digital Agency Logo"
+                style="width: 75px"
+              />
+            </div>
+            <div class="social-icon mt-40">
+              <a href="https://www.facebook.com/profile.php?id=61567880623368">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+              <a
+                href="https://www.instagram.com/wk.pages/profilecard/?igsh=a3dmZ3p4Z3J0bHU5"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+            <div class="item mt-10">
+              <h5><a href="#0">contact@wkpages.com</a></h5>
+              <h5 class="underline"><a href="#0">+48 518 922 121</a></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== End Navbar ==================== -->
+
+    <div id="smooth-wrapper">
+      <div id="smooth-content">
+        <main>
+          <!-- ==================== Start Header ==================== -->
+
+          <header class="header-sa d-flex align-items-center">
+            <div class="background"></div>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 d-flex align-items-center">
+                  <div class="caption">
+                    <h1>Meta Ads <span class="sub-color">Promotion</span></h1>
+                    <a
+                      href="https://tally.so/r/nWKkvQ"
+                      class="butn butn-md butn-bord butn-rounded mt-40"
+                    >
+                      <div class="d-flex align-items-center">
+                        <span>Get Leads Now</span>
+                        <span class="icon icon pe-7s-play ml-10 fz-20"></span>
+                      </div>
+                    </a>
+                    <div class="row">
+                      <div class="col-lg-8">
+                        <div class="text">
+                          <p>
+                            Increase sales and grow your online business with
+                            Facebook ad campaigns and targeting.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="imgs">
+                    <div class="cube">
+                      <img src="assets/imgs/header/cube.svg" alt="" />
+                    </div>
+                    <div class="circle">
+                      <img src="assets/imgs/header/circle-badge.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </header>
+
+          <!-- ==================== End Header ==================== -->
+
+          <!-- ==================== Start services ==================== -->
+
+          <section class="services-sa section-padding">
+            <div class="container">
+              <div class="sec-head mb-50">
+                <div class="row">
+                  <div class="col-lg-7">
+                    <h4>
+                      Our Facebook Advertising Solutions that
+                      <span class="sub-color inline"
+                        >Drive Real Business Results</span
+                      >
+                    </h4>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <!-- 1. Strategy Development -->
+                <div class="col-lg-4" style="margin-top: 25px">
+                  <div class="item">
+                    <div class="cont">
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <h6>
+                            Facebook Ad Strategy<br />
+                            Development
+                          </h6>
+                        </div>
+                        <div class="ml-auto">
+                          <div class="icon invert">
+                            <img
+                              src="../common/imgs/icons/bezier-curve-solid.svg"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="text" style="margin-top: 25px">
+                        <p>
+                          We create personalized advertising strategies: from
+                          defining campaign goals and segmenting your audience
+                          to proposing best ad structures and formats with
+                          high-performing creative ideas.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 2. Website Promotion -->
+                <div class="col-lg-4" style="margin-top: 25px">
+                  <div class="item">
+                    <div class="cont">
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <h6>
+                            Website Traffic &<br />
+                            Conversion Boost
+                          </h6>
+                        </div>
+                        <div class="ml-auto">
+                          <div class="icon invert">
+                            <img
+                              src="../common/imgs/icons/bezier-curve-solid.svg"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="text" style="margin-top: 25px">
+                        <p>
+                          Drive targeted traffic to your website using custom
+                          Facebook ad funnels. We optimize for both
+                          top-of-funnel awareness and bottom-funnel
+                          conversions—turning visitors into leads and customers.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 3. eCommerce Ads -->
+                <div class="col-lg-4" style="margin-top: 25px">
+                  <div class="item">
+                    <div class="cont">
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <h6>
+                            eCommerce &<br />
+                            Product Sales
+                          </h6>
+                        </div>
+                        <div class="ml-auto">
+                          <div class="icon invert">
+                            <img
+                              src="../common/imgs/icons/bezier-curve-solid.svg"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="text" style="margin-top: 25px">
+                        <p>
+                          Sell more products with dynamic Facebook ads. We
+                          handle everything from catalog setup to full-funnel
+                          campaigns, helping you scale efficiently and
+                          profitably through Meta’s commerce features.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 4. Mobile App Promotion -->
+                <div class="col-lg-4" style="margin-top: 25px">
+                  <div class="item">
+                    <div class="cont">
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <h6>
+                            Mobile App<br />
+                            Growth Campaigns
+                          </h6>
+                        </div>
+                        <div class="ml-auto">
+                          <div class="icon invert">
+                            <img
+                              src="../common/imgs/icons/bezier-curve-solid.svg"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="text" style="margin-top: 25px">
+                        <p>
+                          We drive installs and user acquisition using
+                          data-driven ad formats like App Installs and
+                          Engagement. Our creatives and targeting ensure maximum
+                          ROI for iOS and Android platforms.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 5. Social Media Business Pages -->
+                <div class="col-lg-4" style="margin-top: 25px">
+                  <div class="item">
+                    <div class="cont">
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <h6>
+                            Business Page<br />
+                            Audience Growth
+                          </h6>
+                        </div>
+                        <div class="ml-auto">
+                          <div class="icon invert">
+                            <img
+                              src="../common/imgs/icons/bezier-curve-solid.svg"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="text" style="margin-top: 25px">
+                        <p>
+                          Expand your brand presence on Facebook. We help grow
+                          your followers, boost post engagement, and attract new
+                          prospects to your services by turning business pages
+                          into conversion machines.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 6. Facebook Business Manager Setup -->
+                <div class="col-lg-4" style="margin-top: 25px">
+                  <div class="item">
+                    <div class="cont">
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <h6>
+                            Meta Business Manager<br />
+                            Setup & Compliance
+                          </h6>
+                        </div>
+                        <div class="ml-auto">
+                          <div class="icon invert">
+                            <img
+                              src="../common/imgs/icons/bezier-curve-solid.svg"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="text" style="margin-top: 25px">
+                        <p>
+                          We professionally configure your Business Manager
+                          account to ensure compliance, seamless access, and
+                          readiness for campaign launch. Includes domain
+                          verification, roles, and payment setup.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 7. Facebook Messenger Ads -->
+                <div class="col-lg-4" style="margin-top: 25px">
+                  <div class="item">
+                    <div class="cont">
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <h6>
+                            Messenger-based<br />
+                            Lead Capture
+                          </h6>
+                        </div>
+                        <div class="ml-auto">
+                          <div class="icon invert">
+                            <img
+                              src="../common/imgs/icons/bezier-curve-solid.svg"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="text" style="margin-top: 25px">
+                        <p>
+                          Boost engagement by connecting with customers directly
+                          in Messenger. We design conversion-friendly flows and
+                          automate lead capture to start conversations that
+                          drive real results.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 8. Full Ad Account Management -->
+                <div class="col-lg-4" style="margin-top: 25px">
+                  <div class="item">
+                    <div class="cont">
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <h6>
+                            Facebook Ads<br />
+                            Account Management
+                          </h6>
+                        </div>
+                        <div class="ml-auto">
+                          <div class="icon invert">
+                            <img
+                              src="../common/imgs/icons/bezier-curve-solid.svg"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="text" style="margin-top: 25px">
+                        <p>
+                          From launch to scale, we manage your Facebook Ads
+                          end-to-end. Our team handles campaign creation,
+                          testing, optimization, and budget control to maximize
+                          your return on every dollar spent.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 9. Retargeting & Dynamic Product Ads -->
+                <div class="col-lg-4" style="margin-top: 25px">
+                  <div class="item">
+                    <div class="cont">
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <h6>
+                            Facebook Retargeting<br />
+                            & Dynamic Ads
+                          </h6>
+                        </div>
+                        <div class="ml-auto">
+                          <div class="icon invert">
+                            <img
+                              src="../common/imgs/icons/bezier-curve-solid.svg"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="text" style="margin-top: 25px">
+                        <p>
+                          Convert warm leads into buyers with advanced Facebook
+                          retargeting. We use Pixel tracking, event-based
+                          segmentation, and dynamic creatives to re-engage
+                          visitors and boost conversion rates.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- ==================== Start Pricing ==================== -->
+
+          <section class="pricing-ds section-padding" style="padding-top: 0">
+            <div class="container">
+              <div class="sec-head mb-10">
+                <h2>Our <span> Prices</span></h2>
+                <div class="d-flex align-items-center mt-20">
+                  <div class="text">
+                    <p>
+                      Clear, straightforward plans tailored to your needs.
+                      <br />
+                      Choose a plan and kick-start now.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="table-responsive">
+                <div class="content">
+                  <div class="price-head">
+                    <div class="price-headTitle"></div>
+
+                    <!-- Package 1 -->
+                    <div class="price-headItem">
+                      <h6>Silver Plan</h6>
+                      <h2 class="yearly_price"><span>from </span> $700</h2>
+                      <p>
+                        Perfect for small businesses launching their first ads.
+                      </p>
+                    </div>
+
+                    <!-- Package 2 -->
+                    <div class="price-headItem">
+                      <h6>Golden Plan</h6>
+                      <h2 class="yearly_price color-blue5">
+                        <span>from </span> $900
+                      </h2>
+                      <p>Growth-focused ad management for scaling brands.</p>
+                    </div>
+
+                    <!-- Package 3 -->
+                    <div class="price-headItem bg-gray">
+                      <h6>Premium Plan</h6>
+                      <h2 class="yearly_price"><span>from </span> $1200</h2>
+                      <p>
+                        Advanced strategies and automation for fast scaling.
+                      </p>
+                      <div class="label">
+                        <img
+                          src="assets/imgs/pricing/Label.svg"
+                          alt="wk.pages - Label"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="price-body">
+                    <!-- Feature Rows -->
+                    <div class="price-bodyItems">
+                      <div class="price-bodyTitle">
+                        6+ Ad Creatives (Images & Videos)
+                      </div>
+                      <div class="price-item">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      <div class="price-item">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      <div class="price-item bg-gray">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                    </div>
+
+                    <div class="price-bodyItems">
+                      <div class="price-bodyTitle">
+                        2–3 Social Media Platforms
+                      </div>
+                      <div class="price-item">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      <div class="price-item">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      <div class="price-item bg-gray">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                    </div>
+
+                    <div class="price-bodyItems">
+                      <div class="price-bodyTitle">
+                        Monthly Campaign Performance Report
+                      </div>
+                      <div class="price-item">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      <div class="price-item">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      <div class="price-item bg-gray">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                    </div>
+
+                    <div class="price-bodyItems">
+                      <div class="price-bodyTitle">
+                        3–8 Consultations per Month
+                      </div>
+                      <div class="price-item">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      <div class="price-item">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      <div class="price-item bg-gray">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                    </div>
+
+                    <div class="price-bodyItems">
+                      <div class="price-bodyTitle">
+                        Ad Budget Management ($500–$5000+)
+                      </div>
+                      <div class="price-item">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      <div class="price-item">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      <div class="price-item bg-gray">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                    </div>
+
+                    <div class="price-bodyItems">
+                      <div class="price-bodyTitle">
+                        A/B Creative and Targeting Testing
+                      </div>
+                      <div class="price-item"></div>
+                      <div class="price-item">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      <div class="price-item bg-gray">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                    </div>
+
+                    <div class="price-bodyItems">
+                      <div class="price-bodyTitle">
+                        Messenger Lead Automation
+                      </div>
+                      <div class="price-item"></div>
+                      <div class="price-item"></div>
+                      <div class="price-item bg-gray">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                    </div>
+
+                    <div class="price-bodyItems">
+                      <div class="price-bodyTitle">
+                        Dynamic Product Ads Setup
+                      </div>
+                      <div class="price-item"></div>
+                      <div class="price-item"></div>
+                      <div class="price-item bg-gray">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                    </div>
+
+                    <div class="price-bodyItems">
+                      <div class="price-bodyTitle">Priority Support</div>
+                      <div class="price-item">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      <div class="price-item">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                      <div class="price-item bg-gray">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                    </div>
+
+                    <div class="price-bodyItems">
+                      <div class="price-bodyTitle">
+                        Custom Reporting Dashboard
+                      </div>
+                      <div class="price-item"></div>
+                      <div class="price-item"></div>
+                      <div class="price-item bg-gray">
+                        <i class="fa-solid fa-check"></i>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="price-foot">
+                    <div class="price-footTitle"></div>
+
+                    <div class="price-foot-item">
+                      <a href="#0" class="butn butn-md butn-bord butn-rounded">
+                        <div class="d-flex align-items-center">
+                          <span>Pick This Package</span>
+                          <span class="icon ml-10"
+                            ><i class="fa-solid fa-chevron-right"></i
+                          ></span>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="price-foot-item">
+                      <a href="#0" class="butn butn-md butn-bord butn-rounded">
+                        <div class="d-flex align-items-center">
+                          <span>Pick This Package</span>
+                          <span class="icon ml-10"
+                            ><i class="fa-solid fa-chevron-right"></i
+                          ></span>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="price-foot-item bg-gray">
+                      <a href="#0" class="butn butn-md butn-bg butn-rounded">
+                        <div class="d-flex align-items-center">
+                          <span>Pick This Package</span>
+                          <span class="icon ml-10"
+                            ><i class="fa-solid fa-chevron-right"></i
+                          ></span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="botm mt-70">
+                <span
+                  >Not finding a plan that fits your needs? Each of our services
+                  can be purchased independently
+                  <a href="#0">Contact Us</a></span
+                >
+              </div>
+            </div>
+          </section>
+
+          <!-- ==================== End Pricing ==================== -->
+
+          <!-- ==================== Start marquee ==================== -->
+
+          <section class="marq-sa section-padding">
+            <div class="main-marq shadow-off">
+              <div class="slide-har st1">
+                <div class="box">
+                  <div class="item">
+                    <h2><span>High-Converting Ads</span></h2>
+                  </div>
+                  <div class="item">
+                    <h2><span>Precise Targeting</span></h2>
+                  </div>
+                  <div class="item">
+                    <h2><span>Optimized Campaigns</span></h2>
+                  </div>
+                  <div class="item">
+                    <h2><span>Data-Driven Strategy</span></h2>
+                  </div>
+                  <div class="item">
+                    <h2><span>Lower Cost Per Lead</span></h2>
+                  </div>
+                  <div class="item">
+                    <h2><span>Boosted Sales</span></h2>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div class="item">
+                    <h2><span>High-Converting Ads</span></h2>
+                  </div>
+                  <div class="item">
+                    <h2><span>Precise Targeting</span></h2>
+                  </div>
+                  <div class="item">
+                    <h2><span>Optimized Campaigns</span></h2>
+                  </div>
+                  <div class="item">
+                    <h2><span>Data-Driven Strategy</span></h2>
+                  </div>
+                  <div class="item">
+                    <h2><span>Lower Cost Per Lead</span></h2>
+                  </div>
+                  <div class="item">
+                    <h2><span>Boosted Sales</span></h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- ==================== End marquee ==================== -->
+
+          <!-- ==================== Start Portfolio ==================== -->
+
+          <!-- <section class="work-card">
+            <div class="container section-padding bord-thin-top-light">
+              <div class="sec-head mb-100">
+                <div class="row">
+                  <div class="col-lg-7">
+                    <h4>
+                      Discover Growth Through
+                      <span class="sub-color inline">Our Proven Cases</span>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cards">
+                <div class="card-item">
+                  <div class="row">
+                    <div class="col-lg-5">
+                      <div class="cont md-mb50">
+                        <h5>
+                          <a href="../inner_pages/project-details.html"
+                            >Stomatology Clinic</a
+                          >
+                        </h5>
+                        <p>
+                          Previously dependent on word-of-mouth, the dental
+                          clinic was facing a decline in new client appointments
+                          and visibility. We implemented localized Facebook
+                          targeting with ad sets focused on high-demand
+                          procedures. In just 90 days, the cost per lead fell to
+                          $4, and the clinic's calendar was consistently booked
+                          for 6 weeks ahead, with ROAS jumping to 620%.
+                        </p>
+                        <div class="mt-40">
+                          <a href="#0" class="tag">ROAS +620%</a>
+                          <a href="#0" class="tag">Cost per lead: $4</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-7">
+                      <div class="img">
+                        <img src="assets/imgs/works/5.jpg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-item">
+                  <div class="row">
+                    <div class="col-lg-5">
+                      <div class="cont md-mb50">
+                        <h5>
+                          <a href="../inner_pages/project-details.html"
+                            >Natural Skincare Line</a
+                          >
+                        </h5>
+                        <p>
+                          This premium skincare brand struggled to convert
+                          website visitors despite a strong visual identity. We
+                          designed a conversion-focused funnel using
+                          product-focused creatives and seasonal promotions.
+                          Over the next 6 months, we doubled their online store
+                          sessions and decreased acquisition cost to $5 per new
+                          customer, while increasing overall return by 200%.
+                        </p>
+                        <div class="mt-40">
+                          <a href="#0" class="tag">Customer cost: $5</a>
+                          <a href="#0" class="tag">Store sessions +2x</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-7">
+                      <div class="img">
+                        <img src="assets/imgs/works/6.jpg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-item">
+                  <div class="row">
+                    <div class="col-lg-5">
+                      <div class="cont md-mb50">
+                        <h5>
+                          <a href="../inner_pages/project-details.html"
+                            >Language Learning Platform</a
+                          >
+                        </h5>
+                        <p>
+                          Before our collaboration, the platform struggled with
+                          low engagement and high user drop-off after signup. We
+                          implemented fun, visually-driven campaigns targeting
+                          multilingual learners based on language interests and
+                          motivation level. The platform saw a 3x boost in free
+                          trial signups, reduced customer acquisition cost by
+                          58%, and dramatically improved lesson completion
+                          rates.
+                        </p>
+                        <div class="mt-40">
+                          <a href="#0" class="tag">3x more trial signups</a>
+                          <a href="#0" class="tag">CAC ↓ 58%</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-7">
+                      <div class="img">
+                        <img src="assets/imgs/works/7.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-item">
+                  <div class="row">
+                    <div class="col-lg-5">
+                      <div class="cont md-mb50">
+                        <h5>
+                          <a href="../inner_pages/project-details.html"
+                            >Fashion Retail Brand</a
+                          >
+                        </h5>
+                        <p>
+                          Prior to campaign launch, the fashion brand had a high
+                          abandonment rate and low direct purchase requests. We
+                          crafted a full-funnel Facebook Ads strategy including
+                          catalog sales and limited-time offers. Within just one
+                          month, we achieved a 2045% ROAS and reduced the cost
+                          per purchase inquiry to $3.40.
+                        </p>
+                        <div class="mt-40">
+                          <a href="#0" class="tag">ROAS 2045%</a>
+                          <a href="#0" class="tag">Cost per lead: $3.40</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-7">
+                      <div class="img">
+                        <img src="assets/imgs/works/8.jpg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-item">
+                  <div class="row">
+                    <div class="col-lg-5">
+                      <div class="cont md-mb50">
+                        <h5>
+                          <a href="../inner_pages/project-details.html"
+                            >Real Estate Company</a
+                          >
+                        </h5>
+                        <p>
+                          The real estate company had outdated landing pages and
+                          poor ad performance. We redesigned the funnel from
+                          scratch and ran hyper-targeted Facebook lead
+                          generation campaigns. We generated 350+ property
+                          inquiries at a low cost of $2.50 per lead, with a 45%
+                          form completion rate improvement.
+                        </p>
+                        <div class="mt-40">
+                          <a href="#0" class="tag">Lead cost: $2.50</a>
+                          <a href="#0" class="tag">350+ inquiries</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-7">
+                      <div class="img">
+                        <img src="assets/imgs/works/9.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-item">
+                  <div class="row">
+                    <div class="col-lg-5">
+                      <div class="cont md-mb50">
+                        <h5>
+                          <a href="../inner_pages/project-details.html"
+                            >Beauty & Wellness Brand</a
+                          >
+                        </h5>
+                        <p>
+                          The beauty brand was struggling to fill seminar seats
+                          and promote services via social media. We introduced
+                          Facebook lead forms combined with messenger
+                          automation, generating over 350 high-intent leads and
+                          achieving a 60% consultation conversion rate.
+                        </p>
+                        <div class="mt-40">
+                          <a href="#0" class="tag">350+ leads</a>
+                          <a href="#0" class="tag">Conversion rate 60%</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-7">
+                      <div class="img">
+                        <img src="assets/imgs/works/10.jpg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="text-center mt-80">
+                <a
+                  href="../inner_pages/portfolio-cards.html"
+                  class="butn butn-md butn-bord butn-rounded"
+                >
+                  <div class="d-flex align-items-center">
+                    <span>See More Case Studies</span>
+                    <span class="icon invert ml-10">
+                      <img
+                        src="../common/imgs/icons/arrow-top-right.svg"
+                        alt=""
+                      />
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </section> -->
+          <!-- ==================== End Portfolio ==================== -->
+        </main>
+
+        <!-- ==================== Start Footer ==================== -->
+
+        <footer class="footer-ds bord-thin-top-light">
+          <div class="container section-padding">
+            <div class="row justify-content-between">
+              <div class="col-lg-4">
+                <div class="subscribe md-mb50">
+                  <h6>Contact us for a free consultation</h6>
+                  <div class="form-group">
+                    <label for="email_subscribe">Email Address</label>
+                    <input
+                      id="email_subscribe"
+                      type="email"
+                      placeholder="Enter your email address"
+                      name="email_subscribe"
+                    />
+                    <button type="submit" class="icon invert">
+                      <img
+                        src="assets/imgs/icons/paper-plane.svg"
+                        alt="wk.pages - Paper Plane Icon for contact form"
+                      />
+                    </button>
+                  </div>
+                  <span
+                    >By subscribing, you're accept our
+                    <a href="#0">Privacy Policy</a></span
+                  >
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="contact-info">
+                  <div class="row lg-marg">
+                    <div class="col-md-6">
+                      <div class="item mb-60">
+                        <h6>Work Inquiry</h6>
+                        <p>contact@wkpages.com</p>
+                        <p>+48 518 922 121</p>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="item mb-60">
+                        <h6>Open Position</h6>
+                        <p>Senior Front-end Wordpress Developer (Remote)</p>
+                        <p>UI/UX Designer (Remote)</p>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="item sm-mb60">
+                        <h6>Warszawa, woj. Mazowieckie</h6>
+                        <p>Chmielna 25/2</p>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="item">
+                        <h6>Links</h6>
+                        <p><a href="#0">Terms & Conditions</a></p>
+                        <p><a href="#0">Privacy Policy</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sub-footer bord-thin-top-light pt-50 pb-50">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8">
+                  <div class="copy d-flex align-items-center md-mb30">
+                    <div>
+                      <div class="logo" style="border: none">
+                        <img
+                          src="assets/imgs/wk.pages-logo-white.svg"
+                          alt="wk.pages - Digital Agency Logo"
+                          style="width: 50px"
+                        />
+                      </div>
+                    </div>
+                    <div class="ml-50">
+                      <p>
+                        © 2025 <a href="#0">wk.pages Agency</a>. <br />
+                        All Right Reserved
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-end">
+                  <div class="links sub-color d-flex justify-content-between">
+                    <a href="#0" class="active">Home</a>
+                    <a
+                      href="https://www.instagram.com/wk.pages/profilecard/?igsh=a3dmZ3p4Z3J0bHU5"
+                      >Instagram</a
+                    >
+                    <a
+                      href="https://www.facebook.com/profile.php?id=61567880623368"
+                      >Facebook</a
+                    >
+                    <a href="#0">Contact Us</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <!-- ==================== End Footer ==================== -->
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../common/js/lib/jquery-3.6.0.min.js"></script>
+    <script src="../common/js/lib/jquery-migrate-3.4.0.min.js"></script>
+
+    <!-- plugins -->
+    <script src="../common/js/lib/plugins.js"></script>
+
+    <!-- GSAP -->
+    <script src="../common/js/gsap_lib/gsap.min.js"></script>
+    <script src="../common/js/gsap_lib/ScrollSmoother.min.js"></script>
+    <script src="../common/js/gsap_lib/ScrollTrigger.min.js"></script>
+    <script src="../common/js/gsap_lib/SplitText.min.js"></script>
+
+    <!-- common scripts -->
+    <script src="../common/js/common_scripts.js"></script>
+
+    <!-- custom scripts -->
+    <script src="assets/js/scripts.js"></script>
+
+    <script>
+      const langOptions = document.querySelectorAll(
+        ".lang-switcher span[data-lang]"
+      );
+
+      langOptions.forEach((option) => {
+        option.addEventListener("click", () => {
+          langOptions.forEach((el) => el.classList.remove("active"));
+          option.classList.add("active");
+
+          const selectedLang = option.getAttribute("data-lang");
+          console.log(`Switched to language: ${selectedLang}`);
+
+          // Optional logic to actually change the language
+          // window.location.href = `/${selectedLang}`;
+        });
+      });
+    </script>
+  </body>
+</html>
