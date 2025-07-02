@@ -396,7 +396,7 @@
     display: flex;
     border-bottom: 1px solid rgba(255, 255, 255, 0.7); }
     .pricing-ds .content .price-head .price-headTitle {
-      width: 34%; }
+      width: 22%; }
     .pricing-ds .content .price-head .price-headItem {
       position: relative;
       width: 22%;
@@ -435,7 +435,7 @@
     .pricing-ds .content .price-body .price-bodyItems:last-of-type {
       border: 0; }
     .pricing-ds .content .price-body .price-bodyItems .price-bodyTitle {
-      width: 34%;
+      width: 22%;
       padding: 15px 0;
       font-size: 14px;
       height: 60px;
@@ -485,7 +485,7 @@
     display: -ms-flexbox;
     display: flex; }
     .pricing-ds .content .price-foot .price-footTitle {
-      width: 34%; }
+      width: 22%; }
     .pricing-ds .content .price-foot .price-foot-item {
       width: 22%;
       text-align: center;
